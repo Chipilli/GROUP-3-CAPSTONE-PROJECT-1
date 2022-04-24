@@ -1,1 +1,16 @@
-body
+body{
+    background-color: hsl(218, 28%, 13%);
+}
+.footer {
+    background-color: hsl(219, 53%, 9%);
+}
+.footer-logo {
+    background-image: url("logo.svg");
+}
+.footer-2 {
+    display: flex;
+    justify-content: center;
+}
+.phoneline {
+    margin: 15px;
+}
