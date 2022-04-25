@@ -55,6 +55,7 @@ width: auto;
     transition: 0.5s ease;
     font-size: 15px;
 }
+/* i am having isue centering this */
 .icon{
     display: flex;
     justify-content: center;
