@@ -5,7 +5,7 @@
     scroll-behavior: smooth;
 }
 body{
-    background-color: hsl(218, 28%, 13%);
+    background-color: hsl(217, 28%, 15%);
     font-size: 14px;
 }
 header{
@@ -64,8 +64,40 @@ width: auto;
 
 
 
-
-
+.section-test {
+    position: relative;
+    margin: 40px 0px 300px 0px;
+}
+.quote {
+    margin-left: 100px;
+}
+.testimonials {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 30px;
+    left: 110px;
+    color: darkgrey;
+}
+.testimonial-i {
+    border: 1px solid hsl(219, 30%, 18%);
+    background-color: hsl(219, 30%, 18%);
+    color: darkgrey;
+    font-size: 14px;
+    padding: 50px 30px;
+    margin: 0px 25px 0px 0px;
+    box-shadow: 10px 10px hsl(217, 28%, 16%);
+}
+.test-sec {
+    display: flex;
+    background-color: hsl(219, 30%, 18%);
+    font-size: 8px;
+    margin-top: 30px;
+}
+.image-t {
+    width: 23px;
+    border-radius: 50%;
+}
 .footer {
     background-color: hsl(219, 53%, 9%);
 }
