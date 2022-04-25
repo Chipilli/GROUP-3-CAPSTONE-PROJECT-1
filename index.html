@@ -11,43 +11,32 @@
 
 <body>
      <header>
-        <div>
-            <div>
-                <img src="images/logo.svg" alt="">
-            </div>
-            <div>
+         <!--Use semantic html instead of too many divs-->
+                <img class="logo" src="images/logo.svg" alt="logo">
                 <nav>
-                    <ul>
-                        <li>
-                            <a href="#">Features</a>
-                        </li>
-                        <li>
-                            <a href="#">Team</a>
-                        </li>
-                        <li>
-                            <a href="#">Sign In</a>
-                        </li>
+                    <ul class="navlinks">
+                <!--use emmnet to create multiple links instead of creating div
+                it will help make code neater-->
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Sign In</a></li>
                     </ul>
                 </nav>
-            </div>
-        </div>
     </header>
 
     <main>
+        <section>
+            <div>
+                <img  class="icon"  src="images/illustration-intro.png" alt="">
+            </div>
         <div>
-            <img src="images/illustration-intro.png" alt="">
-        </div>
-        <div>
-            <h1>All your files in one secure location, accessible anywhere.</h2>
-                <p>Fylo stores all your most important files in one secure location. Access them whenever you need,
-                    share
-                    and
-                    collaborate with friends, family, and co-workers.</p>
-                <img src="image/bg-curvy-desktop.svg" alt="">
-                <div>
+            <h1>All your files in one secure location, accessible anywhere. </h1>
+            <br/>    
+            <p>Fylo stores all your most important files in one secure location. Access them whenever you need,
+                    share and collaborate with friends, family, and co-workers.</p>
                     <button>Get Started</button>
                 </div>
-        </div>
+    </section>
     </main>
     
     <section class=”testimonials”>
