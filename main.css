@@ -61,22 +61,6 @@ header {
     margin: 0px 50px 0px 100px;
 } */
 
-button {
-    transition: all 0.3s ease 0s;
-    width: 200px;
-    height: 45px;
-    background-color: hsl(198, 60%, 50%);
-    color: hsl(0, 0%, 100%);
-    border-radius: 3em;
-    border: none;
-    /* font-size: 100%; */
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: hsl(176, 68%, 64%);
-}
-
 /* .hero button {
     width: 25%;
     border-radius: 20px;
@@ -96,6 +80,22 @@ button:hover {
 
 
 
+
+button {
+    transition: all 0.3s ease 0s;
+    width: 200px;
+    height: 45px;
+    background-color: hsl(198, 60%, 50%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 3em;
+    border: none;
+    /* font-size: 100%; */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(176, 68%, 64%);
+}
 
 .menu {
     margin-top: 130px;
@@ -149,18 +149,39 @@ button:hover {
     color: hsl(0, 0%, 100%);
 }
 
-.testimonials {
+.section-test {
+    position: relative;
+    /* margin: 40px 0px 300px 0px; */
     display: flex;
-    margin: 100px 100px;
+    justify-content: center;
+    /* position: absolute; */
+    /* top: 30px; */
+    /* left: 110px; */
+    color: hsl(0, 0%, 66%);
+    /* margin: 100px 100px; */
+    align-items: flex-start;
 }
 
-.satish-patel {
-    width: 60%;
+.testimonial-i {
+    border: 1px solid hsl(219, 30%, 18%);
     background-color: hsl(219, 30%, 18%);
-    border-radius: 0px;
-    display: flex;
-    flex-direction: column;
+    color: darkgrey;
+    font-size: 14px;
+    /* padding: 50px 30px;  */
+    margin: 0px 25px 0px 0px;
+    box-shadow: 10px 10px #1d263440;
+}
 
+.test-sec {
+    display: flex;
+    background-color: hsl(219, 30%, 18%);
+    font-size: 8px;
+    margin-top: 30px;
+}
+
+.image-t {
+    width: 23px;
+    border-radius: 50%;
 }
 
 .form {
@@ -168,14 +189,14 @@ button:hover {
     margin: auto;
     padding: 20px;
     position: relative;
-    top: 50px;
+    top: 60px;
     background-color: hsl(217, 28%, 15%);
     border-radius: 3px;
 }
 
 .form input {
     height: 45px;
-    width: 60%;
+    width: 350px;
     border-radius: 3em;
     border: none;
 }
@@ -209,4 +230,13 @@ button:hover {
 
 .middle2 li a:hover {
     color: hsl(0, 0%, 100%);
+}
+
+/* .quote {
+    margin-left: 100px;
+} */
+
+.social {
+    background-color: a;
+    border-radius: 50%;
 }
