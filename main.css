@@ -206,3 +206,7 @@ button:hover {
     text-decoration: none;
     color: white;
 }
+
+.middle2 li a:hover {
+    color: hsl(0, 0%, 100%);
+}
