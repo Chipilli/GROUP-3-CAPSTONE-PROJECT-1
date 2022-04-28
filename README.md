@@ -7,5 +7,10 @@ Udeibom Caleb [Ass. Team Lead],
 Ore-Aruwaji Eniola,
 Porbeni Oyinbrakemi Kelvin,
 Julius Ogunfuwa,
-Abolaji Ibrahim. 
+Abolaji Ibrahim,
+Abdulhakeem Olohuntoyin. 
 Team Members And What They Worked On:
+Aminu Abdulhakeem: Html and CSS
+Udeibom Caleb: Html and CSS
+Porbeni Oyinbrakemi Kelvin: Html
+Julius Ogunfuwa: Html and CSS
