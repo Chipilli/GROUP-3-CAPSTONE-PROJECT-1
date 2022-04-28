@@ -22,6 +22,7 @@ h4 {
 
 header {
     font-family: Raleway;
+    background-color: hsl(217, 28%, 15%);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -31,6 +32,10 @@ header {
 .logo {
     cursor: pointer;
     margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .navlinks {
@@ -51,6 +56,7 @@ header {
 .navlinks li a:hover {
     color: hsl(0, 0%, 100%);
     text-decoration: underline;
+    font-weight: bold;
 }
 
 /* .hero {
@@ -73,13 +79,67 @@ header {
 } */
 
 /* i am having isue centering this */
-.icon {
+/* .icon {
     display: flex;
+    justify-content: center;
+} */
+
+.main {
+    background: hsl(217, 28%, 15%);
+    height: 750px;
+}
+
+.intro {
+    height: 750px;
+    background: no-repeat top/60% 400px url(images/illustration-intro.png), no-repeat bottom/100% 300px url(images/bg-curvy-desktop.svg);
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
+.intro_container {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
 
+h1 {
+    width: 500px;
+    word-wrap: break-word;
+    margin: auto;
+}
 
+.intro_container-2 {
+    margin-top: 10px;
+}
+
+.intro_paragraph {
+    width: 430px;
+    word-wrap: break-word;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.intro_button {
+    width: 250px;
+    height: 45px;
+    background-color: hsl(198, 60%, 50%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 3em;
+    border: none;
+}
+
+button:hover {
+    background-color: hsl(176, 68%, 64%);
+}
+
+h1,
+h2 {
+    font-family: Raleway;
+}
 
 button {
     transition: all 0.3s ease 0s;
@@ -89,7 +149,6 @@ button {
     color: hsl(0, 0%, 100%);
     border-radius: 3em;
     border: none;
-    /* font-size: 100%; */
     cursor: pointer;
 }
 
@@ -98,7 +157,6 @@ button:hover {
 }
 
 .menu {
-    margin-top: 130px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -110,6 +168,10 @@ button:hover {
     margin: 30px;
 }
 
+.menu img {
+    margin-bottom: 20px;
+}
+
 .files h3 {
     margin-top: 11px;
 }
@@ -117,6 +179,7 @@ button:hover {
 .illustration {
     text-align: center;
     margin: 70px;
+    margin-bottom: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,38 +213,57 @@ button:hover {
 }
 
 .section-test {
-    position: relative;
-    /* margin: 40px 0px 300px 0px; */
+    margin: 50px;
     display: flex;
+    align-items: center;
     justify-content: center;
-    /* position: absolute; */
-    /* top: 30px; */
-    /* left: 110px; */
-    color: hsl(0, 0%, 66%);
-    /* margin: 100px 100px; */
-    align-items: flex-start;
+}
+
+.quote {
+    position: relative;
+    left: 45px;
+    bottom: 90px;
+}
+
+.testimonial {
+    position: relative;
+    display: flex;
 }
 
 .testimonial-i {
+    font-size: 13px;
+    height: 150px;
+    width: 300px;
+    margin: 0px 25px 0px 0px;
     border: 1px solid hsl(219, 30%, 18%);
     background-color: hsl(219, 30%, 18%);
-    color: darkgrey;
-    font-size: 14px;
-    /* padding: 50px 30px;  */
-    margin: 0px 25px 0px 0px;
     box-shadow: 10px 10px #1d263440;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.testimonial-i h5 {
+    margin: 20px;
+    word-wrap: break-word;
 }
 
 .test-sec {
+    font-size: 9px;
     display: flex;
     background-color: hsl(219, 30%, 18%);
-    font-size: 8px;
-    margin-top: 30px;
+    align-items: center;
+    margin: 1px 20px;
+}
+
+.test-sec h5 {
+    position: relative;
+    bottom: 10px;
 }
 
 .image-t {
     width: 23px;
     border-radius: 50%;
+    margin-bottom: 20px;
 }
 
 .form {
@@ -209,34 +291,249 @@ button:hover {
     align-items: center;
 }
 
+.left-side {
+    margin-top: 30px;
+}
+
 .footer-logo {
-    background-image: url("logo.svg");
+    margin-right: 190px;
+    margin-bottom: 15px;
+}
+
+.footer-logo img {
+    height: 30px;
+    width: 90px;
 }
 
 .footer-2 {
     display: flex;
     justify-content: center;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.middle1 {
+    margin-top: 70px;
 }
 
 .phoneline {
+    text-align: left;
     margin: 15px;
 }
 
-.middle2 li a {
+.middle2 {
+    margin-top: 110px;
+}
+
+.middle2 li {
+    margin: 10px;
+}
+
+.middle3 {
+    margin-top: 83px;
+}
+
+.middle3 li {
+    margin: 10px;
+}
+
+.middle2,
+.middle3 {
+    text-align: left;
+}
+
+.footer li a {
     transition: all 0.3s ease 0s;
     text-decoration: none;
     color: white;
 }
 
-.middle2 li a:hover {
+.footer li a:hover {
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+}
+
+.social {
+    border-radius: 50%;
+    display: flex;
+}
+
+.social div {
+    margin: 5px;
+}
+
+.social svg {
     color: hsl(0, 0%, 100%);
 }
 
-/* .quote {
-    margin-left: 100px;
-} */
+.social svg:hover {
+    color: hsl(176, 68%, 64%);
+}
 
-.social {
-    background-color: a;
-    border-radius: 50%;
+@media (max-width: 375px) {
+    .logo {
+        width: 80px;
+        height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .navlinks {
+        margin-bottom: 20px;
+    }
+
+    .navlinks li {
+        padding: 9px;
+    }
+
+    .main {
+        height: 600px;
+    }
+
+    .intro {
+        height: 600px;
+    }
+
+    .intro {
+        background: no-repeat top/79% 295px url(images/illustration-intro.png), no-repeat bottom/100% 350px url(images/bg-curvy-desktop.svg);
+    }
+
+    h1 {
+        width: 350px;
+        word-wrap: break-word;
+        font-size: 25px;
+    }
+
+    .intro_paragraph {
+        width: 300px;
+        word-wrap: break-word;
+    }
+
+    .menu {
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .menu img {
+        height: 60px;
+    }
+
+    .illustration {
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+    }
+
+    .illustration img {
+        width: 350px;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+
+    .text {
+        width: 15opx
+    }
+
+    .text h2 {
+        width: 350px;
+    }
+
+    .text p {
+        width: 300px;
+    }
+
+    .quote {
+        height: 25px;
+        position: relative;
+        left: 37px;
+        bottom: 250px;
+    }
+
+    .testimonial {
+        flex-flow: column wrap;
+        margin-right: 50px;
+    }
+
+    .testimonial-i {
+        margin: 25px 0px 0px 0px;
+        border: 1px solid hsl(219, 30%, 18%);
+        background-color: hsl(219, 30%, 18%);
+        box-shadow: 10px 10px #1d263440;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .form {
+        width: 320px;
+        height: 350px;
+    }
+
+    .form form {
+        padding: 15px;
+    }
+
+    .form p {
+        font-size: 13px;
+    }
+
+    .form input {
+        width: 270px;
+        margin-bottom: 20px;
+    }
+
+    .form button {
+        width: 270px;
+    }
+
+    .footer {
+        height: 780px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 15px;
+    }
+
+    .footer-logo {
+        position: relative;
+        bottom: 15px;
+        left: 30px;
+    }
+
+    .footer-2 p {
+        font-size: 13px;
+    }
+
+    .footer-logo img {
+        height: 40px;
+        width: 100%;
+    }
+
+    .left-side {
+        margin-top: 0px;
+        position: relative;
+        top: 110px;
+    }
+
+    .middle1 {
+        margin-top: 0px;
+        position: relative;
+        top: 70px;
+    }
+
+    .middle2 {
+        margin-top: 15px;
+        position: relative;
+        top: 69px;
+    }
+
+    .middle3 {
+        margin-top: 0px;
+        position: relative;
+        top: 60px;
+    }
+
+    .social {
+        margin-top: 35px;
+        position: relative;
+        top: 45px;
+        left: 120px;
+    }
 }
